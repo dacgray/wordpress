@@ -17,7 +17,6 @@ services:
        - db
      image: wordpress:latest
      volumes:
-       - ./wordpress:/var/www/html
        - ./berkeley:/var/www/html/wp-content/themes/berkeley
        - ./cambridge:/var/www/html/wp-content/themes/cambridge
        - ./harvard:/var/www/html/wp-content/themes/harvard
