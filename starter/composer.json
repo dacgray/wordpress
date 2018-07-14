@@ -1,0 +1,13 @@
+{
+    "name": "schoolhero/starter",
+    "type": "wordpress-theme",
+    "license": "PROPRIETARY",
+    "authors": [
+        {
+            "name": "SchoolHero.co",
+            "email": "dev@schoolhero.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
