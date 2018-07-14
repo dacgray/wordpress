@@ -17,7 +17,7 @@ services:
      container_name: wordpress
      depends_on:
        - db
-     image: wordpress:latest
+     build: .
      volumes:
        - ./berkeley:/var/www/html/wp-content/themes/berkeley
        - ./cambridge:/var/www/html/wp-content/themes/cambridge
