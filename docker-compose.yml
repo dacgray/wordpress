@@ -20,6 +20,7 @@ services:
     build: .
     volumes:
       - ./starter:/var/www/html/wp-content/themes/starter
+      - ./wordpress-helper:/var/www/html/wp-content/themes/wordpress-helper
       - ./berkeley:/var/www/html/wp-content/themes/berkeley
       - ./cambridge:/var/www/html/wp-content/themes/cambridge
       - ./harvard:/var/www/html/wp-content/themes/harvard
