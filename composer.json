@@ -1,0 +1,15 @@
+{
+  "name": "schoolhero/wordpress",
+  "type": "wordpress-theme-kit",
+  "license": "PROPRIETARY",
+  "authors": [
+    {
+      "name": "SchoolHero.co",
+      "email": "dev@schoolhero.co"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^5.6"
+  }
+}
