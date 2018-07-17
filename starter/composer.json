@@ -1,13 +1,29 @@
 {
-    "name": "schoolhero/starter",
-    "type": "wordpress-theme",
-    "license": "PROPRIETARY",
-    "authors": [
-        {
-            "name": "SchoolHero.co",
-            "email": "dev@schoolhero.co"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "schoolhero/starter",
+  "type": "wordpress-theme",
+  "license": "PROPRIETARY",
+  "authors": [
+    {
+      "name": "SchoolHero.co",
+      "email": "dev@schoolhero.co"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "wikimedia/composer-merge-plugin": "^1.4"
+  },
+  "extra": {
+    "merge-plugin": {
+      "include": [
+        "composer.local.json"
+      ],
+      "recurse": true,
+      "replace": false,
+      "ignore-duplicates": false,
+      "merge-dev": true,
+      "merge-extra": false,
+      "merge-extra-deep": false,
+      "merge-scripts": false
+    }
+  }
 }

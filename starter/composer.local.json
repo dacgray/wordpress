@@ -1,0 +1,12 @@
+{
+  "require": {
+    "wikimedia/composer-merge-plugin": "^1.4",
+    "schoolhero/wordpress-helper": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../wordpress-helper"
+    }
+  ]
+}
