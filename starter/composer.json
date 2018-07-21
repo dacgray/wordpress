@@ -10,7 +10,16 @@
   ],
   "minimum-stability": "stable",
   "require": {
+    "php": "5.3",
     "wikimedia/composer-merge-plugin": "^1.4"
+  },
+  "require-dev": {
+      "squizlabs/php_codesniffer": "3.*"
+  },
+  "scripts": {
+    "test": "phpunit",
+    "lint": "phpcs",
+    "lint:fix": "phpcbf"
   },
   "extra": {
     "merge-plugin": {
