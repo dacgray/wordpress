@@ -14,5 +14,5 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 max_line_length = 120
 
-[{*.js,*.css,*.scss,*.html}]
+[{*.js,*.css,*.scss,*.html,*.json,*.yaml,*.yml}]
 indent_size = 2
